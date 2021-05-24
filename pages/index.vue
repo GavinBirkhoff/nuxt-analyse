@@ -28,7 +28,19 @@
 </template>
 
 <script>
-export default {}
+export default {
+  // middleware:'auth', // 页面层级中间件定义
+  middleware(context){
+    console.log('middleware pages')
+  },
+
+  //参数的有效性
+  validate({params,query}){
+    //校验业务
+    console.log('validate')
+    return true
+  }
+}
 </script>
 
 <style>

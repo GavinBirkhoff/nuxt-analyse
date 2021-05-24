@@ -4,6 +4,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  // middleware:'auth', // 页面层级中间件定义
+  middleware(context){
+    console.log('middleware layouts')
+  }
+}
+</script>
+
+
 <style>
 html {
   font-family:
