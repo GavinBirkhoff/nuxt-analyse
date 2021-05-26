@@ -4,6 +4,8 @@
     <nuxt-link to="/">index</nuxt-link>
     <nuxt-link to="/goods">goods</nuxt-link>
     <!-- 展示区 router-view -->
+    <br />一级展示区
+    <hr>
     <Nuxt />
   </div>
 </template>
