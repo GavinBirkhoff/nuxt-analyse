@@ -2,6 +2,7 @@
   <div>
     <!-- 声明式跳转 router-link -->
     <nuxt-link to="/">index</nuxt-link>
+    <nuxt-link to="/home">home</nuxt-link>
     <nuxt-link to="/goods">goods</nuxt-link>
     <!-- 展示区 router-view -->
     <br />一级展示区
